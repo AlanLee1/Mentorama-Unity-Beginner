@@ -9,10 +9,10 @@ Acessar os arquivos salvos na pasta: **Files**
 
 Primeira atividade do curso.<br/>
 
-<img src="/Files/Module1/game.PNG" alt="project"/>
+<img src="/Files/Module1/Game.PNG" alt="project"/>
 
 ## Module2
 
 Segunda atividade do curso.<br/>
 
-<img src="/Files/Module2/game.PNG" alt="project"/>
+<img src="/Files/Module2/Game.PNG" alt="project"/>
