@@ -28,6 +28,10 @@ Exportar um projeto level greybox: iluminação, prefab.<br/>
 
 Terceira atividade do curso:<br/>
 Implementar um código que realize o cálculo de quantidade de cédulas de um valor.<br/>
-[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module2)
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module3)
 
-<img src="/Files/Module2/Game.PNG" alt="project"/>
+## Módulo 4
+
+Quarta atividade do curso:<br/>
+Exportar build com 3 funcionalidade: dropdown: resolução; checkbox: fullscreen; button: close apllication<br/>
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module4)
