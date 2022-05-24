@@ -25,6 +25,8 @@ public class SeletorDeEnigma : MonoBehaviour
 
     void Start()
     {
+        Screen.SetResolution(1024, 800, false);
+
         scoreTexto.text = "Score: " + score.ToString();
         //pegar a variavel armazenada no pc e setar o valor no record / case null
         record = PlayerPrefs.GetInt("record", 0);
@@ -147,5 +149,15 @@ public class SeletorDeEnigma : MonoBehaviour
             //Resetar a cena
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+    }
+
+    public void PowerUp()
+    {
+        List<Enigma> listaTemp = Dificuldade();
+
+        //remove a questao da lista quando acerta
+        listaTemp.Remove(listaTemp[index]);
+        Score();
+        Start();
     }
 }
