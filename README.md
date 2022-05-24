@@ -54,6 +54,6 @@ Quinta atividade do curso:<br/>
 <img src="/Files/Module5/Game.PNG" alt="project"/>
 
 Ajuda: queria ter deixado apenas as 3 opções: "easy","medium" e "hard", sem a opção de selecionar "dificuldade".<br/>
-Para que quando Inicializa-se a scene, aparecesse com a dificuldade selecionada por ultima vez.<br/>
-Porem quando eu coloco "dropdown.GetComponent<Dropdown>().value = dificuldade;"(linha 15 - Dificuldade.cs) passando a dificuldade armazenada em cache, ele cria um looping infito.<br/>
+Para que quando Inicializa-se a scene, aparecesse com a dificuldade selecionada pela ultima vez.<br/>
+Porem quando eu coloco "dropdown.GetComponent<Dropdown>().value = dificuldade;"(linha 15 - Dificuldade.cs) passando a dificuldade armazenada em cache, ele cria um looping infinito.<br/>
 Teria alguma maneira de fazer deste modo?<br/>
