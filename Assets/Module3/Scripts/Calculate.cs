@@ -10,6 +10,9 @@ public class Calculate : MonoBehaviour
     void Start()
     {
         print($"Valor: {a}");
+        if (a == 0){
+            print("Digite um valor maior que 0");
+        }
         if(a>=100){
             n1 = (a - a % 100)/100;
             a = a % 100;
@@ -67,10 +70,7 @@ public class Calculate : MonoBehaviour
         }
         if (a>0.01){
             m6 = (a - a % 0.01)/0.01;
-            print("Troco em balas");   
-        }
-        if (a == 0){
-            print("Digite um valor maior que 0");
+            print("Resto do troco em balas");
         }
     }
 }
