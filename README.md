@@ -27,7 +27,7 @@ Terceira atividade do curso:<br/>
 Implementar um código que realize o cálculo de quantidade de cédulas de um valor.<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module3)
 
-<img src="/Files/Module3/Logs.PNG" alt="project"/>
+<img src="/Files/Module3/Log.PNG" alt="project"/>
 
 ## Módulo 4
 
@@ -36,7 +36,10 @@ Exportar build com 3 funcionalidades:<br/>
 - dropdown: resolução;<br/>
 - checkbox: fullscreen;<br/>
 - button: close apllication<br/>
+
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module4)
+
+<img src="/Files/Module3/Game.PNG" alt="project"/>
 
 ## Módulo 5
 
@@ -45,4 +48,7 @@ Quinta atividade do curso:<br/>
 - Pontuações diferentes;
 - Powerup: pular pergunta, eliminar perguntas erradas;
 - Melhorar visual;
+
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module5)
+
+<img src="/Files/Module3/Game.PNG" alt="project"/>
