@@ -17,13 +17,15 @@ public class Menu : MonoBehaviour
         Screen.fullScreen = toggle.GetComponent<Toggle>().isOn;
     }
 
-    public void SetScreenResolution(){
+    public void SetScreenResolution()
+    {
         //capturar elemento selecionado
         int index = gameObject.GetComponent<Dropdown>().value;
         //verificar o modo de tela
         bool fullScreen = toggle.GetComponent<Toggle>().isOn;
         //setar resolução
-        switch(index){
+        switch (index)
+        {
             case 0:
                 Debug.Log("0");
                 Debug.Log(fullScreen);
@@ -46,6 +48,4 @@ public class Menu : MonoBehaviour
                 break;
         }
     }
-
-
 }
