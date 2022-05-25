@@ -33,9 +33,9 @@ Implementar um código que realize o cálculo de quantidade de cédulas de um va
 
 Quarta atividade do curso:<br/>
 Exportar build com 3 funcionalidades:<br/>
-- dropdown: resolução;<br/>
-- checkbox: fullscreen;<br/>
-- button: close apllication<br/>
+- dropdown: resolução;
+- checkbox: fullscreen;
+- button: close apllication.
 
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module4)
 
@@ -44,10 +44,11 @@ Exportar build com 3 funcionalidades:<br/>
 ## Módulo 5
 
 Quinta atividade do curso:<br/>
+Desenvolver um minigame (quiz) com:<br/>
 - Adicionar perguntas com dificuldades diferentes;
 - Pontuações diferentes;
 - Powerup: pular pergunta, eliminar perguntas erradas;
-- Melhorar visual;
+- Melhorar visual.
 
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module5)
 
