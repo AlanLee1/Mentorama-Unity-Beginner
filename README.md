@@ -39,7 +39,7 @@ Exportar build com 3 funcionalidades:<br/>
 
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module4)
 
-<img src="/Files/Module4/Game.PNG" alt="project"/>
+<img src="/Files/Module4/Game.gif" alt="project"/>
 
 ## Módulo 5
 
@@ -54,7 +54,17 @@ Desenvolver um minigame (quiz) com:<br/>
 
 <img src="/Files/Module5/Game.PNG" alt="project"/>
 
-Ajuda: queria ter deixado apenas as 3 opções: "easy","medium" e "hard", sem a opção de selecionar "dificuldade".<br/>
+<!-- Ajuda: queria ter deixado apenas as 3 opções: "easy","medium" e "hard", sem a opção de selecionar "dificuldade".<br/>
 Para que quando Inicializa-se a scene, aparecesse com a dificuldade selecionada pela ultima vez.<br/>
 Porem quando eu coloco "dropdown.GetComponent<Dropdown>().value = dificuldade;"(linha 15 - Dificuldade.cs) passando a dificuldade armazenada em cache, ele cria um looping infinito.<br/>
 Teria alguma maneira de fazer deste modo?<br/>
+-->
+
+## Módulo 6
+
+Sexta atividade do curso:<br/>
+Desenvolver um projeto on deve instanciar scenes de forma aditiva conforme o player vai andando no mapa
+
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module6)
+
+<img src="/Files/Module6/Game.gif" alt="project"/>
