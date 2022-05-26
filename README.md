@@ -52,7 +52,7 @@ Desenvolver um minigame (quiz) com:<br/>
 
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module5)
 
-<img src="/Files/Module5/Game.git" alt="project"/>
+<img src="/Files/Module5/Game.gif" alt="project"/>
 
 <!-- Ajuda: queria ter deixado apenas as 3 opções: "easy","medium" e "hard", sem a opção de selecionar "dificuldade".<br/>
 Para que quando Inicializa-se a scene, aparecesse com a dificuldade selecionada pela ultima vez.<br/>
