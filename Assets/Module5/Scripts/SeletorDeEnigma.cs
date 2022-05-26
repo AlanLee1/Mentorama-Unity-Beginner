@@ -21,6 +21,7 @@ public class SeletorDeEnigma : MonoBehaviour
     int index;
     int indexRespostas;
     int dificuldade;
+    public GameObject win;
     
 
     void Start()
@@ -142,7 +143,17 @@ public class SeletorDeEnigma : MonoBehaviour
             //remove a questao da lista quando acerta
             listaTemp.Remove(listaTemp[index]);
             Score();
-            Start();
+            //condição para aparecer que acabou as questões
+            if(listaTemp.Count == 0)
+            {
+                //Aparecer botão de vitória
+                win.SetActive(true);
+            }
+            else
+            {
+                Start();
+            }
+            
         }
         else
         {
@@ -159,5 +170,12 @@ public class SeletorDeEnigma : MonoBehaviour
         listaTemp.Remove(listaTemp[index]);
         Score();
         Start();
+    }
+
+    //Ao clicar que venceu
+    public void OnclickWin()
+    {
+        //Resetar a cena
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
