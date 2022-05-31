@@ -6,25 +6,35 @@ using UnityEngine.SceneManagement;
 
 public class Dificuldade : MonoBehaviour
 {
-    public GameObject dropdown;
-    public int dificuldade;
+    [SerializeField] public Dropdown dropdown;
+    [SerializeField] public int dificuldade;
+    //não pode ser alterado, apenas ler
+    [SerializeField] readonly string keyDificuldade = "KEY_DIFICULDADE";
+
+    void Awake()
+    {
+        dificuldade = PlayerPrefs.GetInt(keyDificuldade, 0);
+    }
 
     void Start()
     {
-        dificuldade = PlayerPrefs.GetInt("dificuldade", 1);
-        //dropdown.GetComponent<Dropdown>().value = dificuldade;
+        dropdown.value = dificuldade;
         Debug.Log("INICIOU: " + dificuldade);
     }
 
     public void setDificuldade()
     {
-        dificuldade = dropdown.GetComponent<Dropdown>().value;
-        Debug.Log("Alterou: " + dificuldade);
+        if(dificuldade != dropdown.value)
+        {
+            dificuldade = dropdown.value;
+            Debug.Log("Alterou: " + dificuldade);
 
-        //salvar um valor no texto dificuldade - cache do pc
-        PlayerPrefs.SetInt("dificuldade", dificuldade);
+            //salvar um valor no texto dificuldade - cache do pc
+            PlayerPrefs.SetInt(keyDificuldade, dificuldade);
 
-        //Resetar a cena
-        SceneManager.LoadScene(SceneManager.GetSceneByName("Module5").name);
+            //Resetar a cena
+            SceneManager.LoadScene(SceneManager.GetSceneByName("Module5").name);
+        }
+        
     }
 }

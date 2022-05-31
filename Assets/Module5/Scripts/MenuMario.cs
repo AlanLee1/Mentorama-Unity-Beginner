@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class MenuMario : MonoBehaviour
 {
-    int difficulty;
 
     void Start()
     {

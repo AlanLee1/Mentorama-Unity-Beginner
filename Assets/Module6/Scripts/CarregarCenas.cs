@@ -19,7 +19,7 @@ public class CarregarCenas : MonoBehaviour
         //carrega cena e continua com a cena anterior
         SceneManager.LoadScene("Scene1", LoadSceneMode.Additive);
         //Quando esta utilizando uma cena de forma additive e quer excluir a anterior
-        SceneManager.UnloadScene("Scene1");
+        //SceneManager.UnloadScene("Scene1");
         //Recarregar a cena
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

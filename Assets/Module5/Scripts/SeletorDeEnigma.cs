@@ -51,18 +51,15 @@ public class SeletorDeEnigma : MonoBehaviour
         //setar dificuldade
         switch (dificuldade)
         {
-            case 1:
+            case 0:
                 Debug.Log("Easy");
                 return lista.listaDeEnigmas;
-                break;
-            case 2:
+            case 1:
                 Debug.Log("Medium");
                 return lista.listaDeEnigmasMedio;
-                break;
-            case 3:
+            case 2:
                 Debug.Log("Hard");
                 return lista.listaDeEnigmasDificil;
-                break;
         }
         return lista.listaDeEnigmas;
     }
@@ -74,10 +71,10 @@ public class SeletorDeEnigma : MonoBehaviour
 
         //add na lista de repostas possiveis
         //adicionar na lista as questoes
-        repostasPossiveis.Add(lista[index].repostaCorreta);
-        repostasPossiveis.Add(lista[index].repostaErrada1);
-        repostasPossiveis.Add(lista[index].repostaErrada2);
-        repostasPossiveis.Add(lista[index].repostaErrada3);
+        repostasPossiveis.Add(lista[index].respostaCorreta);
+        repostasPossiveis.Add(lista[index].respostaErrada1);
+        repostasPossiveis.Add(lista[index].respostaErrada2);
+        repostasPossiveis.Add(lista[index].respostaErrada3);
 
         //=======================================================
 
@@ -109,13 +106,13 @@ public class SeletorDeEnigma : MonoBehaviour
         //verifica a dificuldade e soma o valor do score
         switch (dificuldade)
         {
-            case 1:
+            case 0:
                 score = score + 5;
                 break;
-            case 2:
+            case 1:
                 score = score + 10;
                 break;
-            case 3:
+            case 2:
                 score = score + 15;
                 break;
         }
@@ -138,7 +135,7 @@ public class SeletorDeEnigma : MonoBehaviour
     {
         List<Enigma> listaTemp = Dificuldade();
 
-        if (TextoBotao.text == listaTemp[index].repostaCorreta)
+        if (TextoBotao.text == listaTemp[index].respostaCorreta)
         {
             //remove a questao da lista quando acerta
             listaTemp.Remove(listaTemp[index]);
@@ -169,7 +166,16 @@ public class SeletorDeEnigma : MonoBehaviour
         //remove a questao da lista quando acerta
         listaTemp.Remove(listaTemp[index]);
         Score();
-        Start();
+        //condição para aparecer que acabou as questões
+        if (listaTemp.Count == 0)
+        {
+            //Aparecer botão de vitória
+            win.SetActive(true);
+        }
+        else
+        {
+            Start();
+        }
     }
 
     //Ao clicar que venceu

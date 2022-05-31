@@ -1018,7 +1018,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dificuldade
+  m_Text: Easy
 --- !u!222 &515295276
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1135,6 +1135,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: SeletorDeEnigma, Assembly-CSharp
         m_MethodName: PowerUp
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 570989355}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2543,8 +2555,6 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Dificuldade
-      m_Image: {fileID: 0}
     - m_Text: Easy
       m_Image: {fileID: 0}
     - m_Text: Medium
@@ -2640,7 +2650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 495001a2ded3c704f81d0bc93752fe3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropdown: {fileID: 1074773004}
+  dropdown: {fileID: 1074773005}
   dificuldade: 0
 --- !u!1 &1120479996
 GameObject:
@@ -2807,57 +2817,57 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   listaDeEnigmas:
   - pergunta: "Qual \xE9 a profiss\xE3o do Mario? "
-    repostaCorreta: Encanador
-    repostaErrada1: Soldado
-    repostaErrada2: Motorista
-    repostaErrada3: Padeiro
+    respostaCorreta: Encanador
+    respostaErrada1: Soldado
+    respostaErrada2: Motorista
+    respostaErrada3: Padeiro
   - pergunta: "Qual \xE9 o nome de seu irm\xE3o?"
-    repostaCorreta: Luigi
-    repostaErrada1: Leo
-    repostaErrada2: Luidi
-    repostaErrada3: Loige
+    respostaCorreta: Luigi
+    respostaErrada1: Leo
+    respostaErrada2: Luidi
+    respostaErrada3: Loige
   - pergunta: "Quem \xE9 o arqui-inimigo do Mario?"
-    repostaCorreta: Bowser
-    repostaErrada1: Donkey Kong
-    repostaErrada2: Waluigi
-    repostaErrada3: Desentupidor
+    respostaCorreta: Bowser
+    respostaErrada1: Donkey Kong
+    respostaErrada2: Waluigi
+    respostaErrada3: Desentupidor
   - pergunta: "O que \xE9 o Bowser?"
-    repostaCorreta: "Tartaruga Drag\xE3o"
-    repostaErrada1: "Drag\xE3o"
-    repostaErrada2: Macaco
-    repostaErrada3: Porco Espinho
+    respostaCorreta: "Tartaruga Drag\xE3o"
+    respostaErrada1: "Drag\xE3o"
+    respostaErrada2: Macaco
+    respostaErrada3: Porco Espinho
   listaDeEnigmasMedio:
   - pergunta: Em qual jogo o Mario aparece pela primeira vez?
-    repostaCorreta: Donkey Kong
-    repostaErrada1: Zelda
-    repostaErrada2: Pac-man
-    repostaErrada3: Super Mario Bros
+    respostaCorreta: Donkey Kong
+    respostaErrada1: Zelda
+    respostaErrada2: Pac-man
+    respostaErrada3: Super Mario Bros
   - pergunta: Qual foi o primeiro nome do Mario?
-    repostaCorreta: Jumpman
-    repostaErrada1: Super Jumpman
-    repostaErrada2: Bros
-    repostaErrada3: Mr. Mario
+    respostaCorreta: Jumpman
+    respostaErrada1: Super Jumpman
+    respostaErrada2: Bros
+    respostaErrada3: Mr. Mario
   - pergunta: "Como s\xE3o os nomes das duas princesas do jogo?"
-    repostaCorreta: Peach e Daisy
-    repostaErrada1: Daisy e Zelda
-    repostaErrada2: Peach e Fox
-    repostaErrada3: Fox e Zelda
+    respostaCorreta: Peach e Daisy
+    respostaErrada1: Daisy e Zelda
+    respostaErrada2: Peach e Fox
+    respostaErrada3: Fox e Zelda
   listaDeEnigmasDificil:
   - pergunta: Quantos mundos tem o jogo?
-    repostaCorreta: Oito
-    repostaErrada1: Quarto
-    repostaErrada2: Cinco
-    repostaErrada3: Seis
+    respostaCorreta: Oito
+    respostaErrada1: Quarto
+    respostaErrada2: Cinco
+    respostaErrada3: Seis
   - pergunta: "Como \xE9 o nome do criador de Mario?"
-    repostaCorreta: Shigeru Miyamoto
-    repostaErrada1: Akemi Sakasaki
-    repostaErrada2: Sakura Yumi
-    repostaErrada3: Hideki Hinata
+    respostaCorreta: Shigeru Miyamoto
+    respostaErrada1: Akemi Sakasaki
+    respostaErrada2: Sakura Yumi
+    respostaErrada3: Hideki Hinata
   - pergunta: "Qual foi a data de lan\xE7amento do jogo no Jap\xE3o?"
-    repostaCorreta: 21 de novembro de 1990
-    repostaErrada1: 13 de agosto de 1991
-    repostaErrada2: 13 de agosto de 1990
-    repostaErrada3: 21 de dezembro de 1991
+    respostaCorreta: 21 de novembro de 1990
+    respostaErrada1: 13 de agosto de 1991
+    respostaErrada2: 13 de agosto de 1990
+    respostaErrada3: 21 de dezembro de 1991
 --- !u!4 &1146171329
 Transform:
   m_ObjectHideFlags: 0
