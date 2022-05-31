@@ -8,6 +8,11 @@ public class InputsKeys : MonoBehaviour
     [SerializeField] public float forca = 150f;
     [SerializeField] public float velocidadeMaxima = 10f;
 
+    void Awake()
+    {
+        SceneManager.LoadScene("Scene1", LoadSceneMode.Additive);
+    }
+
     void Update()
     {
         var horizontalInput = Input.GetAxis("Horizontal");
