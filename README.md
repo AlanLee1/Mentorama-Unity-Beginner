@@ -68,3 +68,12 @@ Desenvolver um projeto on deve instanciar scenes de forma aditiva conforme o pla
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module6)
 
 <img src="/Files/Module6/Game.gif" alt="project"/>
+
+## Módulo 7
+
+Sexta atividade do curso:<br/>
+Desenvolver um projeto on deve criar objeto colocando força no vetor Y, para manter o máximo de tempo no ar.
+
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module7)
+
+<img src="/Files/Module7/Game.gif" alt="project"/>
