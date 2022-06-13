@@ -7,7 +7,7 @@ public class Jetpack : MonoBehaviour
 {
     [SerializeField] public float maxFuel = 2f;
     [SerializeField] private float currentFuel;
-    [SerializeField] public float trustForce = 0.1f;
+    [SerializeField] public float trustForce = 0.3f;
     [SerializeField] public Rigidbody player;
     [SerializeField] public ParticleSystem effect;
     [SerializeField] public Image fuel;

@@ -146,8 +146,8 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.ProBuilder.dll
---root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Csg.dll
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+--root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Csg.dll
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.ProBuilder.KdTree.dll
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\UnityEngine.SpatialTracking.dll
@@ -316,8 +316,8 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.ProBuilder.dll
---root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Csg.dll
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+--root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.ProBuilder.Csg.dll
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.ProBuilder.KdTree.dll
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
 --root-assembly=C:\Users\alan.lee\Desktop\Projetos\Mentorama\Mentorama-Unity-Beginner\Temp\StagingArea\Data\Managed\UnityEngine.SpatialTracking.dll
