@@ -96,4 +96,4 @@ anotar
 
 <img src="/Files/Module9/Game.gif" alt="project"/>
 
-Duvida: Em relação a organização de pacotes, o ideal seria criar uma pasta "controllers" com todos os controllers existentes dentro? ou criar uma pasta "controller" dentro da pasta de cada modelo?
+<!-- Duvida: Em relação a organização de pacotes, o ideal seria criar uma pasta "controllers" com todos os controllers existentes dentro? ou criar uma pasta "controller" dentro da pasta de cada modelo? -->
