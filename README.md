@@ -89,11 +89,23 @@ Importar assets de uma cidade no projeto e criar modelos de prefab
 
 ## Módulo 9
 
+Animation Player:
+
+Assistência: Teria como gravar um video aplicando os efeitos de audio e visual na animação do tiro? que foi explicado na aula 3, pois repliquei a aula, porém da ocorre erro na hora de executar apenas os eventos. Tirando isso as animações estão funcionando corretamente.
+
+Duvida: Em relação a organização de pacotes, o ideal seria criar uma pasta "controllers" com todos os controllers existentes dentro? ou criar uma pasta "controller" dentro da pasta de cada modelo?
+
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module9/AnimationPlayer)
+
+<img src="/Files/Module9/AnimationPlayer/Game.gif" alt="project"/>
+
+
 Nona atividade do curso:<br/>
 anotar
 
-[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module9)
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module9/Activity)
 
-<img src="/Files/Module9/Game.gif" alt="project"/>
+<img src="/Files/Module9/Activity/Game.gif" alt="project"/>
 
-<!-- Duvida: Em relação a organização de pacotes, o ideal seria criar uma pasta "controllers" com todos os controllers existentes dentro? ou criar uma pasta "controller" dentro da pasta de cada modelo? -->
+
+
