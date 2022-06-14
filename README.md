@@ -71,7 +71,7 @@ Desenvolver um projeto on deve instanciar scenes de forma aditiva conforme o pla
 
 ## Módulo 7
 
-Sexta atividade do curso:<br/>
+Sétima atividade do curso:<br/>
 Desenvolver um projeto on deve criar objeto colocando força no vetor Y, para manter o máximo de tempo no ar.
 
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module7)
@@ -80,9 +80,20 @@ Desenvolver um projeto on deve criar objeto colocando força no vetor Y, para ma
 
 ## Módulo 8
 
-Sexta atividade do curso:<br/>
+Oitava atividade do curso:<br/>
 Importar assets de uma cidade no projeto e criar modelos de prefab
 
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module8)
 
 <img src="/Files/Module8/Game.gif" alt="project"/>
+
+## Módulo 9
+
+Nona atividade do curso:<br/>
+anotar
+
+[Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module9)
+
+<img src="/Files/Module9/Game.gif" alt="project"/>
+
+Duvida: Em relação a organização de pacotes, o ideal seria criar uma pasta "controllers" com todos os controllers existentes dentro? ou criar uma pasta "controller" dentro da pasta de cada modelo?
