@@ -1,0 +1,3 @@
+Click Left: fire;
+W: walk;
+W + Shift Left: Run;
