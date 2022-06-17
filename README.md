@@ -103,7 +103,7 @@ Duvida: Em relação a organização de pacotes, o ideal seria criar uma pasta "
 Nona atividade do curso:<br/>
 Fazer a animação do player com combo.
 
-Assistência: teria alguma maneira de controlar melhor o tempo dentro do unity? onde só pode executar o combo 2, quando o 1 terminar de ser executado, sem cortar no meio a animação. Outra coisa, se eu coloquei em 0.5 o speed, se colocar em 1, o combo 1 é executado 2x. e se eu colocar a condição do "combo1" para "new state" em false, ele acaba demorando.
+Assistência: teria alguma maneira de controlar melhor o tempo dentro do unity? onde só pode executar o combo 2, quando o 1 terminar de ser executado, sem cortar no meio a animação. Outra coisa, eu coloquei em 0.5 o speed, se colocar em 1, o combo 1 é executado 2x. e se eu colocar a condição do "combo1" para "new state" em false, ele acaba demorando.
 
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module9/Activity)
 
