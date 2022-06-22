@@ -7,7 +7,7 @@ Acessar os arquivos das atividades na pasta: **Files**
 
 ## Módulo 1
 
-Primeira atividade do curso:<br/>
+Primeira atividade do módulo:<br/>
 Ambientalizar-se na ferramenta unity: hierarquia, cena, layout.<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module1)
 
@@ -15,7 +15,7 @@ Ambientalizar-se na ferramenta unity: hierarquia, cena, layout.<br/>
 
 ## Módulo 2
 
-Segunda atividade do curso:<br/>
+Segunda atividade do módulo:<br/>
 Exportar um projeto level greybox: iluminação, prefab.<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module2)
 
@@ -23,7 +23,7 @@ Exportar um projeto level greybox: iluminação, prefab.<br/>
 
 ## Módulo 3
 
-Terceira atividade do curso:<br/>
+Terceira atividade do módulo:<br/>
 Implementar um código que realize o cálculo de quantidade de cédulas de um valor.<br/>
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module3)
 
@@ -31,7 +31,7 @@ Implementar um código que realize o cálculo de quantidade de cédulas de um va
 
 ## Módulo 4
 
-Quarta atividade do curso:<br/>
+Quarta atividade do módulo:<br/>
 Exportar build com 3 funcionalidades:<br/>
 - dropdown: resolução;
 - checkbox: fullscreen;
@@ -43,7 +43,7 @@ Exportar build com 3 funcionalidades:<br/>
 
 ## Módulo 5
 
-Quinta atividade do curso:<br/>
+Quinta atividade do módulo:<br/>
 Desenvolver um minigame (quiz) com:<br/>
 - Adicionar perguntas com dificuldades diferentes;
 - Pontuações diferentes;
@@ -62,7 +62,7 @@ Teria alguma maneira de fazer deste modo?<br/>
 
 ## Módulo 6
 
-Sexta atividade do curso:<br/>
+Sexta atividade do módulo:<br/>
 Desenvolver um projeto on deve instanciar scenes de forma aditiva conforme o player vai andando no mapa
 
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module6)
@@ -71,7 +71,7 @@ Desenvolver um projeto on deve instanciar scenes de forma aditiva conforme o pla
 
 ## Módulo 7
 
-Sétima atividade do curso:<br/>
+Sétima atividade do módulo:<br/>
 Desenvolver um projeto on deve criar objeto colocando força no vetor Y, para manter o máximo de tempo no ar.
 
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module7)
@@ -80,7 +80,7 @@ Desenvolver um projeto on deve criar objeto colocando força no vetor Y, para ma
 
 ## Módulo 8
 
-Oitava atividade do curso:<br/>
+Oitava atividade do módulo:<br/>
 Importar assets de uma cidade no projeto e criar modelos de prefab
 
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module8)
@@ -100,7 +100,7 @@ Duvida: Em relação a organização de pacotes, o ideal seria criar uma pasta "
 <img src="/Files/Module9/AnimationPlayer/Game.gif" alt="project"/>
 
 
-Nona atividade do curso:<br/>
+Nona atividade do módulo:<br/>
 Fazer a animação do player com combo.
 
 Assistência: teria alguma maneira de controlar melhor o tempo dentro do unity? onde só pode executar o combo 2, quando o 1 terminar de ser executado, sem cortar no meio a animação. Outra coisa, eu coloquei em 0.5 o speed, se colocar em 1, o combo 1 é executado 2x. e se eu colocar a condição do "combo1" para "new state" em false, ele acaba demorando.
@@ -110,4 +110,7 @@ Assistência: teria alguma maneira de controlar melhor o tempo dentro do unity? 
 <img src="/Files/Module9/Activity/Game.gif" alt="project"/>
 
 
+## Módulo 9
 
+Décima atividade do módulo:<br/>
+Inserir o input de uma palavra e aplicar uma animação nesta palavra que possui no texto e criar um diálogo com experiência.
