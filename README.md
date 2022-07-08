@@ -97,8 +97,8 @@ Duvida: Em relação a organização de pacotes, o ideal seria criar uma pasta "
 
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module9/AnimationPlayer)
 
-<img src="/Files/Module9/AnimationPlayer/Game.gif" alt="project"/>
-
+________________________________________________
+________________________________________________
 
 Nona atividade do módulo:<br/>
 Fazer a animação do player com combo.
@@ -107,10 +107,12 @@ Assistência: teria alguma maneira de controlar melhor o tempo dentro do unity? 
 
 [Arquivos da Atividade](https://github.com/AlanLee1/Mentorama-Unity-Beginner/tree/main/Files/Module9/Activity)
 
-<img src="/Files/Module9/Activity/Game.gif" alt="project"/>
+| Aula | Atividade |
+| :----: | :----: |
+| <img src="/Files/Module9/AnimationPlayer/Game.gif" alt="project"/> | <img src="/Files/Module9/Activity/Game.gif" alt="project"/> |
 
 
-## Módulo 9
+## Módulo 10
 
 Décima atividade do módulo:<br/>
 Inserir o input de uma palavra e aplicar uma animação nesta palavra que possui no texto e criar um diálogo com experiência.
